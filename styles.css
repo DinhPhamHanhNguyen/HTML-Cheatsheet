@@ -1,0 +1,338 @@
+body{
+    margin: 0;
+    padding: 0;    
+    font-family: 'Poppins', sans-serif;       
+    overflow-x: hidden;
+ 
+}
+h1{
+    color:aliceblue;
+    position: relative;
+    font-weight: bold;
+    font-size: 60px;
+    left:30%;
+}
+
+header{
+   
+    background-color: rgb(5, 8, 46);
+    margin-top: -20px;
+    margin-right:-10px;
+    
+  
+}
+header span{
+    color: aliceblue;
+}
+
+main{
+    position: relative;
+    box-sizing: border-box;   
+    left: 30%;
+    font-size: 16px;
+    top: 50px;
+}
+main p{
+    max-width: 400px;
+    min-height: 100px;
+    margin-top: -0.75px;
+    line-height: 2;
+    
+}
+
+.breadcrumb li {
+    display: inline;
+  
+}
+
+.breadcrumb li+li::before {
+    content: "/ ";
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.breadcrumb span:hover{
+    color: yellow;
+}
+.bold{
+    font-weight: bold;
+}
+.part{
+    margin: 20px auto;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 21px;
+}
+ #lis{
+    margin-bottom: 80px;
+}
+.listcontent ul{
+    margin-top: -70px;
+}
+.listcontent li {
+    margin: 20px auto;
+}
+.syntax{
+    background-color: rgba(218, 222, 224, 0.616);
+    font-size: smaller;
+    letter-spacing: 1.75px;
+}
+.detail{
+  display: flex;
+ 
+  flex-direction: row ;
+    
+
+}
+.detail img{
+    position: relative;
+   left:10%;
+   height: 90%;
+
+}
+.cornerText{
+    position: relative;
+    top: 10px;
+    left:10px;
+    font-weight:500;
+}
+
+
+.print-share{
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: right;
+right:20px;
+}
+
+.print-share svg{
+    border: 2px solid transparent; 
+    
+    width: 30px;
+    height: 24px;
+    margin: 0 10px;
+   
+}
+
+.print-share a:hover{
+   color:wheat;
+}
+.ront,
+.hare{
+display: flex;
+flex-direction: row;
+margin-bottom: 10px;
+
+}
+
+.ront span,
+.hare span{
+    margin: 10px 10px;
+    color: yellow;
+    font-weight: 60%;
+   font-size: 16px;
+
+    
+}
+
+#sidebar{
+   
+    border: 2px solid black;
+    margin-top: -50px;
+    position: absolute;
+    left: 10%;
+    z-index: 1;
+    background-color: aliceblue;
+    width: 12%;
+
+}
+
+#sidebar th{
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+#sidebar td
+{
+    padding: 10px;
+ 
+}
+#pic{
+    margin-left: 21px;
+}
+#pic2{
+    box-sizing: border-box;
+   
+    overflow: scroll;
+    max-width: 470px;
+    min-height: 70px;
+}
+.alt{
+    font-weight: 500;
+}
+.listcontent11 ul {
+    margin-top: -20px;
+}
+
+
+
+.listcontent11 li {
+    margin: 20px auto;
+}
+
+footer{
+   position: relative;
+   top:70px;
+}
+
+.pre-next{
+  
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+   
+}
+.pre-next svg{
+    border: 2px solid transparent;    
+    width: 30px;
+    height: 24px;
+    margin: 0 5px;
+   
+    
+}
+
+.pre-next a{
+    margin:0 20px;
+    font-weight: bold;
+}
+.rint1{
+    display: flex;
+    position: relative;
+    flex-direction: row;     
+    margin-bottom: 20px;
+    left:29%;
+}
+
+.rint2 {
+    display: flex;
+    position: relative;
+    right:14%;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.rint1:hover,
+.rint2:hover{
+    transform: scale(1.2);
+}
+.purple {
+    fill:rgb(56, 11, 77);
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(178, 149, 196);
+}
+
+.print-share button,
+.pre-next button{
+    background-color: rgb(5, 8, 46);
+    border-radius: 4px;
+        border-style: none;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.5;
+        margin: 0;
+        max-width: none;
+        min-height: 44px;
+        min-width: 10px;
+        outline: none;
+        overflow: hidden;
+        padding: 9px 20px 8px;
+        position: relative;
+        text-align: center;
+        text-transform: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+     
+    
+        
+}
+
+
+.print-share button:hover,
+.print-share button:focus,
+.pre-next button:hover
+.pre-next button:focus {
+    opacity: .75;
+}
+
+
+@media only screen  and (max-width: 1400px) {
+    #sidebar {
+    
+            border: 2px solid black;
+            position: static;
+    
+            margin-top: 10px;
+            margin-bottom: -100px;
+            margin-left: 10%;
+    
+            background-color: aliceblue;
+            width: 220px;
+        }
+
+    .detail {
+          
+        flex-direction: column;         
+    
+    }
+
+    .detail img{
+       flex:1;
+       margin: auto auto auto 21px;
+       left:-2.5%;
+    }
+    
+    main p{
+        position: relative;
+        right:0.1%;
+    }
+
+    main{
+       position: relative;
+       left:10%;
+       top:130px;
+    }
+
+    h1{
+        position: relative;
+        left: 10%;
+    }
+    footer{
+        top:150px;
+    }
+    
+    .rint1{
+        position: relative;
+        left:8%;
+    }
+    .rint2{
+        position: relative;
+        right:2.5%;
+    }
+}

@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTMl: Elements and Structures</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono&family=Work+Sans:ital,wght@0,400;0,500;0,800;1,400;1,500;1,800&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header>
+        <ul class="breadcrumb">
+           <li><a href=""><span class="cornerText">Cheatsheets</span></a></li> 
+           <li><a href=""><span class="cornerText">Learn HTML</span></a></li>
+        </ul> 
+ 
+        <h1>Elements and Structure</h1>
+     
+   
+        <div class = "print-share">
+            <button>
+            <div class = "ront">
+                <span>Print Cheatsheet</span>
+            <svg xmlns="http://www.w3.org/2000/svg" height="0.625em"
+        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+        <style>
+        svg {
+            fill: #eccb10
+            
+        }
+        </style>
+        <path
+        d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
+        </svg>
+            </div>
+       
+            </button>
+        
+            <button>
+            <div class = "hare">
+                <span>Share</span>
+    <svg xmlns="http://www.w3.org/2000/svg" height="0.625em"
+        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+        <style>
+            svg {
+                fill: #eccb10
+                
+            }
+        </style>
+        <path
+            d="M307 34.8c-11.5 5.1-19 16.6-19 29.2v64H176C78.8 128 0 206.8 0 304C0 417.3 81.5 467.9 100.2 478.1c2.5 1.4 5.3 1.9 8.1 1.9c10.9 0 19.7-8.9 19.7-19.7c0-7.5-4.3-14.4-9.8-19.5C108.8 431.9 96 414.4 96 384c0-53 43-96 96-96h96v64c0 12.6 7.4 24.1 19 29.2s25 3 34.4-5.4l160-144c6.7-6.1 10.6-14.7 10.6-23.8s-3.8-17.7-10.6-23.8l-160-144c-9.4-8.5-22.9-10.6-34.4-5.4z" />
+    </svg>
+            </div>
+            </button>
+        </div>
+    </header>
+    <aside>
+        <table id='sidebar'>
+            <tr>
+                <th>topics</th>
+            </tr>
+            <tr>
+                <td><a href="">Element and Structure</a> </td>
+            </tr>
+            <tr>
+                <td><a href="">Tables</a></td>
+            </tr>
+            <tr>
+                <td><a href="">Forms</a></td>
+            </tr>
+            <tr>
+                <td><a href="">Semantic HTML</a></td>
+            </tr>
+        </table>
+    </aside>
+    <main>
+       
+        
+            <span class ="section-title">
+                HTML
+            </span><br><br>
+        <p>
+            HTML (HyperText Markup Language) is used to give content to a web page and instructs web browsers on how to structure that content.
+        </P>
+    
+            <div class="part">
+            <span class="section-title">
+                Element Content
+            </span><br><br>
+            <div class="detail">
+            <p>The content of an HTML element is the information between the opening and closing tags of an element.</p>
+            <img src="/Resources/images/Screenshot 2023-10-24 212756.png">
+        </div>
+        </div>
+        
+        <div class="part">
+            <span class="section-title">
+                <span class = "syntax">&lt;li&gt;</span> List Item Element
+            </span><br><br>
+            <div class="detail" id="lis">
+                <div class = "listcontent">
+                <p>The <span class="syntax">&lt;li&gt;</span> list item element create list items inside:                   
+                </p>
+                <ul>
+                    <li>Ordered list <span class="syntax">&lt;ol&gt;</span></li>
+                    <li>Unordered lists <span class="syntax">&lt;ul&gt;</span></li>
+                </ul>
+                </div>
+                <img src="./Resources/images/Screenshot 2023-10-24 212843.png" id = "pic">
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                <span class="syntax">&lt;video&gt;</span> Video Element
+            </span><br><br>
+            <div class="detail" >
+                <p>The <span class="syntax">&lt;video&gt;</span> element embeds a media player for video playback. The <span class ="syntax">src</span> attribute will contain the URL to the video.
+                    Adding the <span class="syntax">controls</span> attribute will display video controls in the media player.<br><br>
+                    <span class ="bold">Note:</span> The content inside the opening and closing tag is shown as a fallback in browsers that don&apos;t support the element.
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 213017.png">
+                
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                <span class="syntax">&lt;em&gt;</span> Emphasis Element
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    The <span class="syntax">&lt;em&gt;</span> element emphasizes text and browsers will usually italicize the emphasized text by default.
+                 </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 213213.png" id="pic2">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                <span class="syntax">&lt;ol&gt;</span> Ordered List Element
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    The <span class="syntax">&lt;ol&gt;</span> ordered list element creates a list of items in sequential order. Each list item appears numbered by default.
+                   
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 212450.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                <span class="syntax">&lt;div&gt;</span> Div Element
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    The <span class="syntax">&lt;div&gt;</span> element is used as a container that divides an HTML document into sections and is short for “division”. <span class="syntax">&lt;div&gt;</span> elements
+                        can contain flow content such as headings, paragraphs, links, images, etc.
+        
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 212701.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+               HTML Structure
+            </span><br><br>
+            <div class="detail">
+                <p>
+                HTML is organized into a family tree structure. HTML elements can have parents, grandparents, siblings, children,
+                grandchildren, etc.
+        
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 213932.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                Closing Tag
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    An HTML closing tag is used to denote the end of an HTML element. The syntax for a closing tag is a left angle bracket <span class="syntax">&lt;</span>
+                        followed by a forward slash <span class="syntax">/</span> then the element name and a right angle bracket to close <span class="syntax">&gt;</span>.
+        
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 213932.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                Attribute Name and Values
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    HTML attributes consist of a name and a value using the following syntax: <span class="syntax">name="value"</span> and can be added to the opening
+                    tag of an HTML element to configure or change the behavior of the element.
+        
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 214722.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                <span class="syntax">&lt;br&gt;</span> Line Break Element
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    The <span class="syntax">&lt;br&gt;</span> line break element will create a line break in text and is especially useful where a division of text is required, like
+                    in a postal address. The line break element requires only an opening tag and must not have a closing tag.
+        
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 214943.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                <span class="syntax">&lt;img&gt;</span> Image Element
+            </span><br><br>
+            <div class="detail">
+                <p>
+                HTML image <span class="syntax">&lt;img&gt;</span> elements embed images in documents. The <span class="syntax">src</span> attribute contains the image URL and is mandatory. <span class="syntax">&lt;img&gt;</span> is
+                an empty element meaning it should not have a closing tag.
+        
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 215401.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                <span class="syntax">&lt;h1&gt;</span>-<span class="syntax">&lt;h6&gt;</span> Heading Elements
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    HTML can use six different levels of heading elements. The heading elements are ordered from the highest level <span class="syntax">&lt;h1&gt;</span> to
+                        the lowest level <span class="syntax">&lt;h6&gt;</span>.
+        
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 215631.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                <span class="syntax">&lt;p&gt;</span> Paragraph Element
+            </span><br><br>
+            <div class="detail">
+                <p>
+                The <span class="syntax">&lt;p&gt;</span> paragraph element contains and displays a block of text.
+        
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 213213.png" id="pic2">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+              Unique ID Attributes
+            </span><br><br>
+            <div class="detail">
+                <p>
+                In HTML, specific and unique <span class="syntax">id</span> attributes can be assigned to different elements in order to differentiate between them.<br><br>
+                
+                When needed, the <span class="syntax">id</span> value can be called upon by CSS and JavaScript to manipulate, format, and perform specific
+                instructions on that element and that element only. Valid id attributes should begin with a letter and should only
+                contain letters <span class="syntax">(a-Z)</span>, digits <span class="syntax">(0-9)</span>, hyphens <span class="syntax">(-)</span>, underscores <span class="syntax">(_)</span>, and periods <span class="syntax">(.)</span>.
+        
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 221332.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                HTML Attributes
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    HTML attributes are values added to the opening tag of an element to configure the element or change the element&apos;s
+                    default behavior. In the provided example, we are giving the <span class="syntax">&lt;p&gt;</span> (paragraph) element a unique identifier using the <span class="syntax">id</span>
+                    attribute and changing the color of the default text using the <span class="syntax">style</span> attribute.
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 221332.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                <span class="syntax">&lt;ol&gt;</span> Unordered List Element
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    The <span class="syntax">&lt;ul&gt;</span> unordered list element is used to create a list of items in no particular order. Each individual list item will have a
+                    bullet point by default.
+        
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 223554.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                <span class="syntax"  class="alt">alt</span> Attribute
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    An <span class="syntax">&lt;img&gt;</span> element can have alternative text via the <span class="syntax" class="alt">alt</span>. The alternative text will be displayed if an image
+                    fails to render due to an incorrect URL, if the image format is not supported by the browser, if the image is blocked
+                    from being displayed, or if the image has not been received from the URL.<br><br>
+                    
+                    The text will be read aloud if screen reading software is used and helps support visually impaired users by providing a
+                    text descriptor for the image content on a webpage.
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 224545.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                <span class="syntax" >&lt;body&gt;</span> Attribute
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    The <span class="syntax">&lt;body&gt;</span> element represents the content of an HTML document. Content inside
+                    
+                <span class="syntax">&lt;body&gt;</span> tags are rendered on the web browsers.<br><br>
+                    
+                        <span class="bold">Note:</span> There can be only one
+                    
+                        <span class="syntax">&lt;body&gt;</span> element in a document.
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 230354.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                <span class="syntax">&lt;span&gt;</span> Span Element
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    The <span class="syntax">&lt;span&gt;</span> elementis an inline container for text and can be used to group text for styling purposes. However, as <span class="syntax">&lt;span&gt;</span> is a generic
+                        container to separate pieces of text from a larger body of text, its use should be avoided if a more semantic
+                        element is available.
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 230438.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                <span class="syntax">&lt;<strong></strong>&gt;</span> Strong Element
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    The <span class="syntax">&lt;strong&gt;</span> element highlights important, serious, or urgent text and browsers will normally render this highlighted text in <span class="bold">bold</span> by
+                    default.
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-24 230438.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                HTML Element
+            </span><br><br>
+            <div class="detail">
+                <div class="listcontent11">
+                <p>
+                An HTML element is a piece of content in an HTML document and uses the following syntax: opening tag + content + closing
+                tag. In the code provided:
+                
+                </p>
+
+                <ul>
+                    <li> <span class="syntax">&lt;p&gt;</span> is the opening tag.</li>
+                    <li><span class="syntax">&lt;Hello World!&gt;</span> is the content.</li>
+                    <li><span class="syntax">&lt;/p&gt;</span> is the closing tag.</li>
+                </ul>
+                </div>
+                <img src="./Resources/images/Screenshot 2023-10-24 231147.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                 HTML Tag
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    The syntax for a single HTML tag is an opening angle bracket <span class="syntax">&lt;</span> followed by the element name and a closing angle bracket<span class="syntax">&gt;</span>
+                        . Here is an example of an opening <span class="syntax">&lt;div&gt;</span> tag.
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-25 191950.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+            <span class="syntax">&lt;a&gt;</span> Anchor Element
+            </span><br><br>
+            <div class="detail">
+                <p>
+                The <span class="syntax">&lt;a&gt;</span> anchor element is used to create hyperlinks in an HTML document. The hyperlinks can point to other webpages,
+                    files on the same server, a location on the same page, or any other URL via the hyperlink reference attribute, <span class="syntax">href</span>.
+                    The <span class="syntax">href</span> determines the location the anchor element points to.
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-25 192315.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                <span class="syntax">&lt;head&gt;</span> Head Element
+            </span><br><br>
+            <div class="detail">
+                <p>
+            The <span class="syntax">&lt;head&gt;</span> element contains general information about an HTML page that isn&napos;t
+            displayed on the page itself. This information
+            is called metadata and includes things like the title of the HTML document and links to stylesheets.
+                </p>
+            <img src="./Resources/images/Screenshot 2023-10-25 212300.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                <span class="syntax">&lt;target&gt;</span> Target Attribute
+            </span><br><br>
+            <div class="detail">
+                <p>
+                The <span class="syntax">target</span> attribute on an <span class="syntax">&lt;a&gt;</span> anchor element specifies where a hyperlink should be opened. A <span class="syntax">target</span> value of <span class="syntax">"_blank"</span>
+                    will tell the browser to open the hyperlink in a new tab in modern browsers, or in a new window in older browsers or
+                    if the browser has had settings changed to open hyperlinks in a new window.
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-25 212300.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                Identation
+            </span><br><br>
+            <div class="detail">
+                <p>
+                HTML code should be formatted such that the indentation level of text increases once for each level of nesting.<br>
+                
+                It is a common convention to use two or four space per level of nesting.
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-25 213130.png">
+        
+            </div>
+        </div>
+
+        
+
+        <div class="part">
+            <span class="section-title">
+                Link to a Different Part of the Page <span class="syntax">#</span>
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    The anchor element <span class="syntax">&lt;a&gt;</span> can create hyperlinks to different parts of the
+                    same HTML document using the <span class="syntax">href</span> attribute to
+                    point to the desired location with <span class="syntax">#</span> followed by the <span
+                        class="syntax">id</span> of the element to link to.
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-25 213830.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                <span class="syntax">&lt;html&gt;</span> HTML Element
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    The <span class="syntax">&lt;html&gt;</span> element, the root of an HTML document, should be added after
+                    the <span class="syntax">!DOCTYPE</span> declaration. All content/structure for an HTML document
+                    should be contained between the opening and closing <span class="syntax">&lt;html&gt;</span>tags.
+        
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-25 214246.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                Comments
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    In HTML, comments can be added between an opening <span class="syntax">&lt;!--</span> and closing <span class="syntax">--&gt;</span>. Content inside of comments will not be rendered
+                    by browsers, and are usually used to describe a part of code or provide other details.<br>
+                    
+                    Comments can span single or multiple lines.
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-25 214601.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                Whitespace
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    Whitespace, such as line breaks, added to an HTML document between block-level elements will generally be ignored by the
+                    browser and are not added to increase spacing on the rendered HTML page. Rather, whitespace is added for organization
+                    and easier reading of the HTML document itself.
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-25 214752.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                <span class="syntax">&lt;title&gt;</span> Title Element
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    The <span class="syntax">&lt;title&gt;</span> element contains a text that defines the title of an HTML document. The title is displayed in the browser&apos;s
+                        title bar or tab in which the HTML page is displayed. The <span class="syntax">&lt;title&gt;</span> element can only be contained inside a document&apos;s
+                    
+                        <span class="syntax">&lt;head&gt;</span> element.
+        
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-25 215046.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+               File Path
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    URL paths in HTML can be absolute paths, like a full URL, for example: <span class="syntax">https://developer.mozilla.org/en-US/docs/Learn</span> or
+                    a relative file path that links to a local file in the same folder or on the same server, for example: <span class="syntax">./style.css</span>.
+                    Relative file paths begin with <span class="syntax">./</span> followed by a path to the local file. <span class="syntax">./</span> tells the browser to look for the file path
+                    from the current folder.
+        
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-25 215925.png">
+        
+            </div>
+        </div>
+
+        <div class="part">
+            <span class="section-title">
+                Document Type Declaration
+            </span><br><br>
+            <div class="detail">
+                <p>
+                    The document type declaration
+                <span class="syntax">&lt;!DOCTYPE html&gt;</span> is required as the first line of an HTML document. The doctype declaration is an instruction to the
+                    browser about what type of document to expect and which version of HTML is being used, in this case it&apos;s HTML5.
+        
+                </p>
+                <img src="./Resources/images/Screenshot 2023-10-25 220214.png">
+        
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="pre-next">
+            <div class="rint1">
+                <a href="">Previous</a>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                    viewBox="0 0 448 512" class="purple"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  
+                    <path
+                        d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+                </svg>
+            </div>
+            
+            <div class="rint2">
+                <a href="">Next</a>
+                <svg xmlns="http://www.w3.org/2000/svg" height="0.625em"
+                    viewBox="0 0 448 512" class="purple"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    
+                    <path
+                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                </svg>
+            </div>
+            
+        </div>
+
+        <div class="print-share">
+            <button style="background-color:white">
+            <div class="ront">
+                <span style="color:rgb(90, 90, 19); font-weight: bold;">Print Cheatsheet</span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="0.625em"
+                    viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <style>
+                        svg {
+                            fill: #eccb10
+                        }
+                    </style>
+                    <path
+                        d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
+                </svg>
+            </div>
+            </button>
+        <button style="background-color: white">
+            <div class="hare">
+                <span style="color:rgb(90, 90, 19); font-weight: bold;">Share</span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="0.625em"
+                    viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <style>
+                        svg {
+                            fill: #eccb10
+                        }
+                    </style>
+                    <path
+                        d="M307 34.8c-11.5 5.1-19 16.6-19 29.2v64H176C78.8 128 0 206.8 0 304C0 417.3 81.5 467.9 100.2 478.1c2.5 1.4 5.3 1.9 8.1 1.9c10.9 0 19.7-8.9 19.7-19.7c0-7.5-4.3-14.4-9.8-19.5C108.8 431.9 96 414.4 96 384c0-53 43-96 96-96h96v64c0 12.6 7.4 24.1 19 29.2s25 3 34.4-5.4l160-144c6.7-6.1 10.6-14.7 10.6-23.8s-3.8-17.7-10.6-23.8l-160-144c-9.4-8.5-22.9-10.6-34.4-5.4z" />
+                </svg>
+            </div>
+            </button>
+        </div>
+        
+        
+    </footer>
+</body>
+</html>
